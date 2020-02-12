@@ -1,0 +1,280 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-image: url(wlppic.jpg);
+	min-height: 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+
+
+.header img 
+{
+	width: 150px;
+	float: left;
+}
+
+/**.login_btn
+{
+	width: 100px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: "white";
+	float: right;
+}
+*/
+
+.header h1{
+	padding-top: 200px;
+	padding-bottom: 0px;
+	font-size: 55px;
+}
+
+.header p {
+	margin:8px 0;
+}
+
+.menu
+{
+	width: 40%;
+	height: 10vh;
+	background: rgba(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: right;
+}
+
+.menu a
+{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold; 
+}
+
+.menu a:hover , .dropdown:hover .droptn{
+	background-color: #000;
+	color: white;
+}
+
+.menu a.active {
+	background-color: #000;
+	color: white;
+}
+
+.menu a:link {
+	text-decoration: none;
+}
+
+.menu a:visited {
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+
+	/*overflow: hidden;*/
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #010b13;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.input_group {   /* for search field*/
+	width: 90%;
+	max-width: 500px;
+	border-radius: 30px;
+	margin: auto;
+	padding: 2px;
+}
+
+.form_control {    /* for search field border*/
+	border: 0 ;
+	border-radius: 30px ;
+	margin: 2px;
+	box-shadow: none ;
+}
+
+.input_group_text_btn  /*for search button*/
+{
+	width: 70px;
+	background-image: linear-gradient (#00ff7e, #1f3d90);
+	border: 0;
+	color: black;
+	padding: 0 10px;
+	border-radius: 30px;
+	box-shadow: none;
+}
+
+/*features*/
+
+.features
+{
+	padding: 100px 0;
+}
+
+h1
+{
+	text-align: center;
+	padding-bottom: 30px; /*creates the space from the header*/
+}
+
+.feature_img img
+{
+	width: 100%;
+}
+
+.price   /*price design*/
+{
+	width: 40px;
+	height: 40px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	position: absolute;
+	left: 20px;
+	bottom: 40px;
+	
+}
+
+.feature_img
+{
+	
+	position: relative;
+}
+
+.feature_details
+{
+	padding: 20px;
+	text-align: justify;
+}
+
+.feature_details h5
+{
+	font-weight: 600;
+	margin-top: 25px
+}
+
+.feature_box
+{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.btnone
+{
+	background: #fff;
+	color: #000;
+}
+
+.btntwo
+{
+	background: #00b894;
+	color: white;
+}
+
+/*.btnone a, .btntwo a
+{
+	padding: 12px 30px;;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}*/
+
+
+.booking-btn
+{
+	width: 100px;
+	padding: 80px 0;
+	outline: none;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 20px;
+}
+
+
+.footer
+{
+	padding: 100px 20px;
+	background-image: linear-gradient(#2d557d, #12A0AC);
+	color: white;
+
+}
+
+.footer-logo
+{
+	width: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+
+
+
+
